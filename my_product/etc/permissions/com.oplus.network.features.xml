@@ -1,0 +1,32 @@
+<oplus-config>
+    <!-- RF Begin -->
+    <oplus-feature name="oplus.software.radio.sar.earpiece.detect.support" />
+    <!-- liti@NETWORK.RF, 2020/12/23, modify for airdetect enable -->
+    <!--oplus-feature name="oplus.software.radio.sar.airinterface.detect.notsupport" /-->
+    <!-- RF End -->
+
+    <!-- Asiga@NETWORK.POWER.26376, 2020/04/27, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_static_netcontroller_enabled" />
+    <!-- ZhuangYunteng@NETWORK.REG.249851, 2020/10/30, add for smart5g-sa -->
+    <oplus-feature name="oplus.software.radio.smart5g_sa_enabled"/>
+
+    <!-- PengHao@NETWORK.DATA.8124, 2020/05/08, Add for network quality evaluation.OPLUS_FEATURE_DATA_EVAL -->
+    <oplus-feature name="oplus.software.radio.data_eval" />
+
+    <!-- PengHao@NETWORK.DATA.110873, 2020/06/28, Add for oppo background data limit, OPLUS_FEATURE_DATA_LIMIT. -->
+    <oplus-feature name="oplus.software.radio.data_limit" />
+
+    <!-- ShiQianhua@NETWORK.DATA.8615, 2020/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.data_fast_recovery"/>
+
+    <!-- WangJianwei@NETWORK.CALL,459835,2020/10/06, add for city whitelist -->
+    <oplus-feature name="oplus.software.radio.loc_control_switch" />
+    <oplus-feature name="oplus.software.radio.show_5g_nr_mode" />
+    <!-- WangJianwei@NETWORK.REG.313285, 2020/09/30, add for dual 5g Enable-->
+    <oplus-feature name="oplus.software.radio.support_dual_nr"/>
+
+    <!-- ZhaoKai@NETWORK.DATA.1256389, 2018/1/26 -->
+    <oplus-feature name="oplus.software.radio.data_hongbao"/>
+    <!-- XieMengDi@NETWORK.DATA.411272, 2020/11/10, modify for game paging optimization -->
+    <oplus-feature name="oplus.software.radio.game_paging"/>
+</oplus-config>

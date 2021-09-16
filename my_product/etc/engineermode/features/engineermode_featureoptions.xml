@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <feature name="com.oppo.eng.vooc.charger.support" />
+    <feature name="com.oppo.eng.svooc.charger.support" />
+    <feature name="com.oppo.eng.pd.charger.support" />
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.a.smallboard.detect.support" />
+    <feature name="com.oppo.eng.ship.mode.support" />
+    <feature name="com.oppo.eng.drm.widevine.support" />
+    <feature name="com.oppo.eng.tp.calibration.support" />
+    <feature name="com.oppo.eng.vibrator.impedance" value="[18000,28000]" />
+    <feature name="com.oppo.eng.vibrator.resonant.frequency" value="[2240,2380]" />
+    <feature name="com.oppo.eng.asic_vbat.support" />
+
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.gemini.support" />
+    <feature name="com.oppo.eng.sim.hot.swap.support" />
+    <feature name="com.oppo.eng.sar.body" value="1.098" />
+    <feature name="com.oppo.eng.sar.head" value="1.149" />
+    <!-- Multimedia feature -->
+    <feature name="com.oppo.eng.smart.pa.calibrate.support" />
+
+    <!-- Connectivity feature -->
+    <feature name="com.oppo.eng.nfc.ese.support" />
+
+    <!-- Camera feature -->
+    <feature name="com.oppo.eng.flash.light.calibrate.support"/>
+    <feature name="com.oppo.eng.flash.light.auto.calibrate.support"/>
+    <feature name="com.oppo.eng.flash.light.support"/>
+    <feature name="com.oppo.eng.flash.light.front.support" />
+    <feature name="com.oppo.eng.second.back.camera.support"/>
+    <feature name="com.oppo.eng.camera.dual.calibrate.support"/>
+    <feature name="com.oppo.eng.camera.dual.verificate.support"/>
+    <feature name="com.oppo.eng.camera.dual.calibrate.aftersale.support"/>
+
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.production.line.aging.new.support" />
+    <feature name="com.oppo.eng.production.line.aging.support" />
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.exp.version" />
+    <feature name="com.oppo.eng.devices.cali.status.check.support" />
+    <feature name="com.oppo.eng.vibrator.linearmotor.v2.support" />
+
+    <!-- Camera parameters -->
+    <feature name="com.oppo.eng.camera.calibration.rear.size" value="4000x3000"/>
+    <feature name="com.oppo.eng.camera.calibrate.second.rear.size" value="2592x1944"/>
+    <feature name="com.oppo.eng.camera.portrait.size" value="4000x3000"/>
+
+    <!-- single core -->
+    <feature name="com.oppo.eng.normal.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.normal.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.normal.charger.voltage.range" value="[4250,5500]"/>
+    <feature name="com.oppo.eng.normal.charge.current.range" value="(-2300,-500)"/>
+    <feature name="com.oppo.eng.normal.charge.current.slow.range" value="(-2300,-200)"/>
+
+    <feature name="com.oppo.eng.vooc.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.vooc.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.vooc.charge.current.range" value="(-6500,-2000)"/>
+    <feature name="com.oppo.eng.vooc.charge.current.slow.range" value="(-6500,-1400)"/>
+
+    <feature name="com.oppo.eng.svooc.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.svooc.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.svooc.charge.current.range" value="(-10500,-2000)"/>
+    <feature name="com.oppo.eng.svooc.charge.current.slow.range" value="(-5500,-1400)"/>
+
+    <feature name="com.oppo.eng.pd.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.pd.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.pd.charger.voltage.range" value="[7600,9500]"/>
+    <feature name="com.oppo.eng.pd.charger.voltage.slow.range" value="[7600,9500]"/>
+    <feature name="com.oppo.eng.pd.charge.current.range" value="(-3600,-1200)"/>
+    <feature name="com.oppo.eng.pd.charge.current.slow.range" value="(-3600,-800)"/>
+</features>

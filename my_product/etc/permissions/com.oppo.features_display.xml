@@ -1,0 +1,83 @@
+<permissions>
+
+    <!-- =================== DISPLAY FEATURES BEGIN ================================ -->
+
+    <feature name="oppo.feature.20660" />
+
+    <!-- roundcorner deprecated feature -->
+    <!-- settings，colorkaraoke，oppotranslation，ocrscanner，clock，clock，safacenter，screenrecoder，screenshot always use this deprecated feature -->
+    <feature name="com.oppo.feature.screen.heteromorphism" />
+    <!-- systemui always use this deprecated feature -->
+    <!-- feature name="oppo.mmdisplay.origin.roundcorner.support" / -->
+
+    <!-- colormode deprecated feature -->
+    <!-- eyeprotect,engineermode,systemui always use this deprecated feature -->
+    <!-- <feature name="oppo.display.colormode.support" /> -->
+    <feature name="oppo.eyeprotect.support" />
+
+    <!-- aod deprecated feature -->
+    <!-- focusmode,systemui,mms,incallui,wallpaperchooser always use this deprecated feature -->
+    <feature name="oppo.aod.support" />
+    <!-- systemui always use this deprecated feature -->
+    <feature name="oppo.aod.prevent.burn.support" />
+    <!-- systemui，wallpaper always use this deprecated feature -->
+    <!-- feature name="oppo.aod.ramless.support" / -->
+    <!-- <feature name="oppo.aod.transparent" /> -->
+
+    <!-- brightness deprecated feature -->
+    <!-- videogallery, oppograllery, systemui always use this deprecated feature -->
+    <feature name="oppo.autobrightctl.animation.support" />
+    <!-- settingprovider always use this deprecated feature -->
+    <feature name="oppo.brightness.mode.automatic" />
+    <!-- systemui,shortcuts,engineermode,supportservices,deepthinker,oppoguardelf,videogallery,settingsprovider,oppogallery2 always use this deprecated feature -->
+    <feature name="oppo.multibits.dimming.support" />
+
+    <!-- sceen fingerprint deprecated feature -->
+    <!-- childrenspace,launcher, safecenter,engineermode,settings,systemui,bootreg,wallpaperchooser,settingsprovider always use this deprecated feature -->
+    <feature name="oppo.hardware.fingerprint.optical.support" />
+
+    <!-- fingerprint dimlayer deprecated feature -->
+    <!-- systemui always use this deprecated feature -->
+    <!-- <feature name="oppo.fingerprint.disable.dimlayer" /> -->
+
+    <!-- game hqv deprecated feature -->
+    <!-- settingsprovider always use this deprecated feature -->
+    <!-- feature name="oppo.game.color.plus.v2.support" /-->
+
+    <!-- sceen mode deprecated feature -->
+    <!-- gamespace always use this deprecated feature -->
+    <feature name="oppo.appautoresolution.support" />
+    <!-- screenshot，engineermode，systemui，settingsprovider，oppoguardelf，settings always use this deprecated feature -->
+    <feature name="oppo.display.screen.120hz.support" />
+    <!-- systemui，oppoguardelf always use this deprecated feature -->
+    <!-- <feature name="oppo.dynamicfpsswitch.feature.support" /> -->
+    <!-- settingsprovider, settings always use this deprecated feature -->
+    <feature name="oppo.display.screen.defaultsmartmode" />
+
+    <!-- underlightsensor deprecated feature -->
+    <!-- gamespace always use this deprecated feature -->
+    <feature name="oppo.display.screen.underlightsensor.support" />
+
+    <!-- hdr enhance deprecated feature -->
+    <!-- settings always use this deprecated feature -->
+    <!--feature name="oppo.hdr.enhance.brightness.support" /-->
+
+    <!-- WifiDisplay deprecated feature -->
+    <feature name="oppo.multiuser.wfd.notsupport" />
+
+    <!-- DC deprecated feature -->
+    <feature name="oppo.display.dcbacklight.support" />
+
+    <!-- no use decrepted feature -->
+    <!-- feature name="oppo.roundcorner.support" / -->
+    <!-- feature name="oppo.high.brightness.support" / -->
+    <!-- feature name="oppo.camera.gallery.backlight.optimize" / -->
+    <!-- feature name="oppo.display.screen.lowpower.hbm.disable.support" / -->
+    <!-- feature name="oppo.multi.device.decrease.refresh.rate" / -->
+    <feature name="oppo.autolight.psensor.notsupport" />
+    <feature name="oppo.display.screen.gloablehbm.support" />
+
+    <feature name="oppo.hdr.enhance.brightness.support" />
+    <!-- =================== DISPLAY FEATURES END ================================== -->
+
+</permissions>

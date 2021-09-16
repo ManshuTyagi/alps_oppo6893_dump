@@ -1,0 +1,10 @@
+<oplus-config>
+    <!-- YangQing@CONNECTIVITY.WIFI.ARCHITECHURE, 2020/07/28   -->
+    <oplus-feature name="oplus.software.wlan.auto_reconnect" />
+
+    <!--oplus-feature name="oplus.software.wlan.dual_sta" /-->
+    
+    <!--oplus-feature name="oplus.software.wlan.dual_sta.switch_default_off" /-->
+
+    <!--oplus-feature name="oplus.software.wlan.traffic_limit" /-->
+</oplus-config>
