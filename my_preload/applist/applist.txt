@@ -1,0 +1,4 @@
+com.snapchat.android:Snapchat_11.6.2.66.apk:snap_appchannel.txt:false
+com.flipkart.android:oppo_preburn_Flipkart_7.6_1130700.apk::false
+in.amazon.mShop.android.shopping:AmazonShopping_Oppo_Android_20.6_32bit.apk::false
+com.realme.link:realmeLink-releaseExp-1.2.258.12_470_50937ab_202101281942_signed.apk::false
